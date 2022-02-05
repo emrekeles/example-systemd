@@ -1,0 +1,10 @@
+[Unit]
+Description=Example
+
+[Timer]
+OnCalendar=*-*-* 15:00:00
+Persistent=true
+Unit=example.service
+
+[Install]
+WantedBy=multi-user.target
